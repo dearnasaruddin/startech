@@ -41,10 +41,71 @@ a {
 }
 
 /* ====================== Common CSS End ====================== */
+/*======================== Comper_cart Start ==================*/
+#compare_card {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99999;
+
+}
+.ship_cart_btn{
+    width: 59px;
+    height: 59px;
+    border: 1px solid rgba(255,255,255,.2);
+    background: #081621;  
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+    font-size: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: 0 0 15px rgba(0,0,0,.1) , -5px 5px 10px rgba(0,0,0,.1);
+    border-radius: 4px;
+    position: relative;
+}
+
+.ship_cart_btn:hover{
+    background: #3749bb;
+}
+.compare_btn {
+    margin-bottom: 12px;
+}
+
+/* .cart_btn{
+    color: #fff;
+    margin-bottom: 8px;
+} */
+
+
+.ship_cart_btn i {
+    color: #fff;
+    font-size: 20px;
+    margin: 10px 0 5px;
+}
+
+.ship_cart_btn .label {
+    opacity: .8;
+}
+.ship_cart_btn .counter {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    background: #ef4a23;
+    border-radius: 16px;
+    line-height: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center; 
+}
+/*======================== Comper_cart End ==================*/
  /* ==================================== Feature Products start ===================================  */
  #featured{
     padding-top: 68px;
-    padding-bottom: 100px;
+    /* padding-bottom: 100px; */
 }
 .featured_heading h2 {
     font-size: 20px;
@@ -53,7 +114,7 @@ a {
     font-weight: 700;
 }
 .featured_heading p {
-    margin-bottom: 30px;
+    margin-bottom: 22px;
     font-size: 15px;
     color: #01132d;
     line-height: 26px;
@@ -68,7 +129,6 @@ a {
     justify-content: flex-start;
 }
 
-
 .featured_box_main {
     flex: 0 0 20%;
     max-width: 20%;
@@ -79,13 +139,15 @@ a {
 }
 
 .featured_box_content {
-    /* display: flex;
-    flex-direction: column; */
     position: relative;
     width: 100%;
     background: #fff;
     border-radius: 5px;
     box-shadow: 0 1px 1px rgba(0,0,0,.1);
+}
+
+.featured_box_main:hover .featured_box_content{
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
 }
 
 .featured_box_save {
@@ -115,17 +177,25 @@ a {
     padding: 20px;
     margin: 0;
 }
+
 .featured_box_img>a{
     height: 228px;
 }
+
 .featured_box_title_price {
+    height: 128.6px;
     padding: 15px;
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    justify-content: space-between;
 }
+
 .featured_box_title_price .featured_box_title {
-    margin-block-end: 1.50rem;
     line-height: 20px;
     font-weight: 400;
 }
+
 .featured_box_title a{
     display: inline-block;
     color: #01132d;
@@ -137,6 +207,7 @@ a {
 
 .featured_box_title a:hover{
     color: #ef4a23;
+    text-decoration: underline;
 }
 
 .featured_box_price {
