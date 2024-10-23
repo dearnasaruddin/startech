@@ -1,0 +1,47 @@
+/* ====================== Font Start ====================== */
+html {
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+/* ====================== Font End ====================== */
+
+
+/* ====================== Common CSS Start ====================== */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Commissioner", sans-serif;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 0.8;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    color: inherit;
+}
+
+/* ====================== Common CSS End ====================== */
