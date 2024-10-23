@@ -45,3 +45,342 @@ a {
 }
 
 /* ====================== Common CSS End ====================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ====================== Banner Part Start ====================== */
+#banner {
+    padding-top: 30px;
+    background: #F2F4F8;
+}
+
+.banner-left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.product-info {
+    background: #ffe8a1;
+    margin-bottom: 31px;
+    padding: 25px 30px;
+    box-shadow: 5px 5px 0 rgba(0, 0, 0, .03);
+    box-sizing: border-box;
+}
+
+.product-info h4 {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Trebuchet MS", sans-serif;
+    color: #000000;
+    margin-bottom: 12px;
+}
+
+.product-info p {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Trebuchet MS", sans-serif;
+    color: rgba(0, 0, 0, 0.50);
+    margin-bottom: 20px;
+}
+
+.choose-field {
+    position: relative;
+}
+
+.choose-field input {
+    padding: 5px 30px 5px 15px;
+    box-shadow: 2px 2px 0 rgba(0, 0, 0, .05);
+    font-size: 15px;
+    font-weight: 400;
+    background: #fff;
+    outline: none;
+    width: 100%;
+    font-family: "Trebuchet MS", sans-serif;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-overflow: ellipsis;
+    margin-bottom: 15px;
+}
+
+.choose-field i {
+    position: absolute;
+    right: 9px;
+    bottom: 27px;
+    opacity: .5;
+}
+
+.banner-right-btn {
+    transition: all linear .3s;
+}
+
+.banner-right-btn button {
+    width: 100%;
+    display: inline-block;
+    border: 2px solid #3749BB;
+    background: transparent;
+    padding: 7px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Trebuchet MS", sans-serif;
+    color: #3749BB;
+    border-radius: 4px;
+    outline: none;
+    transition: all linear .3s;
+}
+
+.banner-right-btn:hover {
+    background: #4A5397;
+    border-radius: 4px;
+}
+
+.banner-right-btn:hover button {
+    color: #FFFFFF;
+}
+
+.career-link img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.quick-card {
+    margin-top: 50px;
+}
+
+.quick-card a {
+    padding: 15px 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.quick-card a i {
+    height: 50px;
+    width: 50px;
+    background: #EF4A23;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.quick-card-text h5 {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Trebuchet MS", sans-serif;
+    color-scheme: #000000;
+}
+
+.quick-card-text p {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Trebuchet MS", sans-serif;
+    color-scheme: #444444;
+    margin-top: 10px;
+}
+
+.news-feed {
+    width: 100%;
+    padding: 12px 20px 8px;
+    background: #fff;
+    margin-top: 30px;
+    border-radius: 33px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Trebuchet MS", sans-serif;
+    color: #444;
+}
+
+/* ====================== Banner Part End ======================== */
+
+/* ====================== Feature Part End ======================== */
+#feature {
+    background: #F2F4F8;
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+
+.feature-header {
+    margin-bottom: 30px;
+}
+
+.feature-header h5 {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Trebuchet MS", sans-serif;
+    color-scheme: #000000;
+    margin-bottom: 15px;
+}
+
+.feature-header p {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Trebuchet MS", sans-serif;
+    color-scheme: #01132d;
+}
+
+.feature-item {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    column-gap: 10px;
+    row-gap: 17px;
+}
+
+.feature-cart-item {
+    padding: 15px 0;
+    border-radius: 15px;
+    background: #FFFFFF;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
+}
+
+.feature-cart-item p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Trebuchet MS", sans-serif;
+    color: #081621;
+    margin-top: 20px;
+    transition: all linear .3s;
+}
+
+.feature-cart-item:hover p {
+    color: #EF4A23;
+}
+
+.store-info {
+    margin-top: 70px;
+    padding: 30px;
+    background: linear-gradient(125deg, #0bc1e9, #3749bb, #00237e);
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.store-info-left {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.store-info-left i {
+    font-size: 48px;
+    color: #FFFFFF;
+}
+
+.left-text h3 {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Trebuchet MS", sans-serif;
+    color: #FFFFFF;
+}
+
+.left-text p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Trebuchet MS", sans-serif;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.find-btn {
+    padding: 17px 50px;
+    background: #ef9919;
+    border-radius: 50px;
+    display: flex;
+    column-gap: 12px;
+    align-items: center;
+    transition: all linear .3s;
+}
+
+.store-info-right {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "Trebuchet MS", sans-serif;
+    color: #FFFFFF;
+}
+
+.find-btn i {
+    font-size: 16px;
+}
+
+.find-btn:hover {
+    background: #C57E15;
+}
+
+/* ====================== Feature Part End ======================== */
