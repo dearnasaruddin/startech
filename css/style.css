@@ -785,7 +785,7 @@ nav.navbar.navbar-expand-lg {
 
 .footer_org_info h4{
     color:#fff;
-    margin-bottom: 42px;
+    margin-bottom: 34px;
     font-size: 14px;
     font-weight: normal;
     text-transform: uppercase;
@@ -804,6 +804,7 @@ nav.navbar.navbar-expand-lg {
   font-size: 14px;
   padding-right: 58px;
   margin-bottom: 17px;
+  line-height: 24px;
 }
 
 .footer_org_info h6{
