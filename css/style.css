@@ -1,21 +1,15 @@
 /* ====================== Font Start ====================== */
-html {
-    font-family: "Trebuchet MS", sans-serif;
+body {
+  font-family: "Trebuchet MS", sans-serif;
 }
 
 /* ====================== Font End ====================== */
 
-
 /* ====================== Common CSS Start ====================== */
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
-
-body {
-    font-family: "Commissioner", sans-serif;
-}
-
 
 h1,
 h2,
@@ -23,25 +17,376 @@ h3,
 h4,
 h5,
 h6 {
-    line-height: 0.8;
-    margin-bottom: 0;
+  line-height: 0.8;
+  margin-bottom: 0;
 }
 
 ul,
 ol {
-    list-style-type: none;
-    padding-left: 0;
-    margin-bottom: 0;
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 0;
 }
 
 p {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 a {
-    text-decoration: none;
-    display: inline-block;
-    color: inherit;
+  text-decoration: none;
+  display: inline-block;
+  color: inherit;
 }
 
 /* ====================== Common CSS End ====================== */
+/* ====================== Header CSS Start ====================== */
+
+#header {
+  background: #081621;
+}
+.sidebyside {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+.header_logo {
+  width: 144px;
+}
+
+.header_logo img {
+  width: 117px;
+}
+
+.header_search {
+  width: 580px;
+  height: 42px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  position: relative;
+}
+
+.header_search input {
+  width: 100%;
+  height: 100%;
+  padding: 0 40px 0 20px;
+  outline: none;
+  border: none;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.header_search i {
+  position: absolute;
+  top: 12px;
+  right: 10px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.header_content_items {
+  display: flex;
+  column-gap: 22px;
+}
+
+.header_content ul {
+  display: flex;
+  align-items: center;
+  column-gap: 14px;
+}
+
+.header_content ul li i {
+  color: #ef4a23;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.header_content ul li h5 {
+  color: #fff;
+  font-size: 15px;
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+
+.header_content ul li p {
+  font-size: 11px;
+  line-height: 16px;
+  font-weight: normal;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.header_button button {
+  padding: 0 20px;
+  background: linear-gradient(
+    45deg,
+    #00237e,
+    #3749bb,
+    #0bc1e9,
+    #3749bb,
+    #00237e
+  );
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  border: none;
+  line-height: 42px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+  outline: none;
+  text-align: center;
+}
+
+/* ====================== Header CSS End ====================== */
+/* ====================== Navbar CSS Start ====================== */
+nav.navbar.navbar-expand-lg {
+  background: #fff;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  padding: 0;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 7px;
+  padding-left: 7px;
+}
+
+.navbar-nav .nav-link {
+  line-height: 50px;
+  white-space: nowrap;
+  font-size: 14px;
+  font-weight: 600;
+  color: #222;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ef4a23;
+}
+
+/* ====================== Navbar CSS End ====================== */
+/* ====================== Footer CSS Start ====================== */
+#footer {
+  background: #081621;
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+
+.main_footer{
+  padding-bottom: 28px;
+}
+.footer_contact_us h4 {
+  color: #fff;
+  margin-bottom: 30px;
+  font-size: 14px;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.footer_contact_us ul {
+  display: block;
+  padding: 10px 0;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer_btn:hover {
+  box-shadow: 0 -70px 0 rgba(0, 0, 0, 0.2) inset;
+  border-color: #ef4a23;
+  text-decoration: none;
+}
+
+.footer_contact_us ul li i {
+  color: #fff;
+  float: left;
+  font-size: 20px;
+  line-height: 47px;
+  padding: 0 10px 0 20px;
+  margin-right: 20px;
+  border-right: 1px solid #333;
+}
+
+.footer_contact_us ul li p {
+  margin: 0 0 4px;
+  font-size: 12px;
+  line-height: 16px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.footer_contact_us ul li span {
+  color: #ef4a23;
+  margin: 0;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: normal;
+}
+
+.footer_about_us h4 {
+  color: #fff;
+  margin-bottom: 30px;
+  font-size: 14px;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+
+}
+
+.footer_about_us ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 32%;
+  line-height: 20px;
+  margin: 0;
+  padding: 0 0 20px;
+}
+
+.footer_about_us ul li{
+
+
+}
+
+.footer_about_us ul li a {
+  font-size: 14px;
+  color: #666;
+  white-space: nowrap;
+  margin-bottom: 20px;
+}
+.footer_about_us ul li a:hover{
+  color: #ef4a23;
+  text-decoration: underline;
+}
+
+
+.footer_org_info h4{
+    color:#fff;
+    margin-bottom: 42px;
+    font-size: 14px;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.footer_org_info h5{
+  color:#fff;
+  font-size: 14px;
+  font-weight: normal;
+  margin-bottom: 17px;
+}
+
+.footer_org_info p{
+  color: #666;
+  font-size: 14px;
+  padding-right: 58px;
+  margin-bottom: 17px;
+}
+
+.footer_org_info h6{
+  color:#666;
+  font-size: 14px;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+.footer_org_info span{
+  color:#ef4a23;
+  font-size: 14px;
+  font-weight: normal;
+
+}
+
+
+.social_footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 15px 0;
+  display: flex;
+}
+
+.apps_link {
+  display: flex;
+  align-items: center;
+}
+.app_link_text {
+  color: #666666;
+  font-size: 12px;
+}
+
+.app_link_items {
+}
+
+.footer_anchor {
+  display: flex;
+  align-items: center;
+  border: 1px solid #666666;
+  border-radius: 7px;
+  padding: 2px 13px 2px 8px;
+  margin-left: 20px;
+  /* width: 116px;
+  height: 40px; */
+  white-space: nowrap;
+}
+
+.app_icons {
+  margin-right: 10px;
+  color: #fff;
+  font-size: 22px;
+}
+
+.app_link_text .download {
+  display: block;
+  font-size: 10px;
+  margin-bottom: -2px;
+}
+
+.app_link_text .app_store {
+  display: block;
+  color: #fff;
+  font-size: 14px;
+}
+.social_media_link ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 12px;
+}
+
+.social_media_link ul li a {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 24px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.sub_footer{
+padding-top: 15px;
+}
+
+.sub_footer_copy_right p{
+    font-size: 12px;
+    color: #666;
+}
+
+.sub_footer_powerBy{
+  font-size: 12px;
+  color: #666;
+  text-align: right;
+}
+/* ====================== Footer CSS End ====================== */
