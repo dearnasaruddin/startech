@@ -48,43 +48,39 @@ a {
 
 
 /* ====================== product details Start ====================== */
-.prodact-details{
+
+#prodact-details{
     margin: 0;
     padding: 0;
 }
-.prodact-details .description-1 h2{
-    margin-top: 35px;
-}
-.description-1 a{
-   color: #ef4a23;
-}
-.description-1 a:hover{
-    text-decoration: underline;
- }
-.prodact-details h1{
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-top: 20px;
+#product-details .description-1 h1{
+    margin: 20px 30px 34px 30px;
     font-size: 22px;
     line-height: 28px;
     font-weight: 400;
 }
-.prodact-details h2{
-    font-weight: normal;
-    font-size: 18px;
-    /* margin: 25px 0 12px; */
-    margin-left: 30px;
-    margin-right: 30px;
-}
-.prodact-details h2 .proper-top{
-    margin-top: 40px;
-}
-.prodact-details p{
-    margin: 35px 0 0 30px;
-    /* margin-bottom: 10px; */
+#product-details .description-1 p{
+    margin: 0 30px 10px 30px;
+    /* margin-right: 30px; 
+    margin-bottom: 10px; */
     font-size: 15px;
     color: #01132d;
     line-height: 26px;
 }
+#product-details .description-1 h2{
+    margin-top: 35px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 25px;
+    font-weight: normal;
+    font-size: 18px;
+}      
+.description-1 a{
+   color: #ef4a23;
+
+}
+.description-1 a:hover{
+    text-decoration: underline;
+ }
 
 /* ====================== product details End ====================== */
