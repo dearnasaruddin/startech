@@ -12,7 +12,7 @@ body {
 }
 
 body {
-    background: #f2f4f8;
+  background: #f2f4f8;
 }
 
 h1,
@@ -43,30 +43,42 @@ a {
 }
 
 @keyframes power {
-  0% {color: transparent;}
-  50% {color: white;}
-  100% {color: #ef4a23;}
+  0% {
+    color: transparent;
+  }
+
+  50% {
+    color: white;
+  }
+
+  100% {
+    color: #ef4a23;
+  }
 }
 
 @keyframes gradient {
-  0%{
-    background: #00237e,;
+  0% {
+    background: #00237e, ;
     /* background: linear-gradient(    45deg,    #00237e,    #3749bb,    #0bc1e9,    #3749bb,    #00237e  ); */
-}
-   25%{
+  }
+
+  25% {
     background: #3749bb;
 
   }
-  50%{
+
+  50% {
     background: #0bc1e9;
-    
+
   }
-  75%{
+
+  75% {
     background: #3749bb;
-    
-  } */
-  100%{
-    background: #00237e,;
+
+  }
+
+  */ 100% {
+    background: #00237e, ;
 
   }
 }
@@ -78,12 +90,14 @@ a {
 #header {
   background: #081621;
 }
+
 #header .sidebyside {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 15px 0;
 }
+
 .header_logo {
   width: 144px;
 }
@@ -135,6 +149,7 @@ a {
   align-items: center;
   column-gap: 14px;
 }
+
 .header_content ul li i {
   color: #ef4a23;
   font-size: 18px;
@@ -163,9 +178,9 @@ a {
 
 .header_button button {
   padding: 0 20px;
-  background: linear-gradient(    45deg,    #00237e,    #3749bb,    #0bc1e9,    #3749bb,    #00237e  );
+  background: linear-gradient(45deg, #00237e, #3749bb, #0bc1e9, #3749bb, #00237e);
   background-size: 400% 400%;
-  animation: gradient 15s linear infinite ;
+  animation: gradient 15s linear infinite;
   border: none;
   line-height: 42px;
   font-size: 14px;
@@ -175,25 +190,25 @@ a {
   border-radius: 4px;
   outline: none;
   text-align: center;
-  -webkit-animation: gradient 15s linear infinite ;
+  -webkit-animation: gradient 15s linear infinite;
 }
 
 /* ====================== Header CSS End ====================== */
 /* ====================== Navbar CSS Start ====================== */
-nav{
+nav {
   position: sticky !important;
   top: 0;
   left: 0;
   z-index: 9999;
 }
 
-nav .navbar-collapse .navbar-nav .nav-link{
+nav .navbar-collapse .navbar-nav .nav-link {
   padding-top: 0 !important;
   padding-bottom: 0 !important;
 }
 
 
-nav .navbar-nav{
+nav .navbar-nav {
   margin-left: -7px !important;
 
 }
@@ -514,33 +529,35 @@ nav.navbar.navbar-expand-lg {
 
 /*======================== Comper_cart Start ==================*/
 #compare_card {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    z-index: 99999;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99999;
 
 }
-.ship_cart_btn{
-    width: 59px;
-    height: 59px;
-    border: 1px solid rgba(255,255,255,.2);
-    background: #081621;  
-    color: #fff;
-    text-align: center;
-    font-weight: 600;
-    font-size: 10px;
-    text-transform: uppercase;
-    cursor: pointer;
-    box-shadow: 0 0 15px rgba(0,0,0,.1) , -5px 5px 10px rgba(0,0,0,.1);
-    border-radius: 4px;
-    position: relative;
+
+.ship_cart_btn {
+  width: 59px;
+  height: 59px;
+  border: 1px solid rgba(255, 255, 255, .2);
+  background: #081621;
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+  font-size: 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: 0 0 15px rgba(0, 0, 0, .1), -5px 5px 10px rgba(0, 0, 0, .1);
+  border-radius: 4px;
+  position: relative;
 }
 
-.ship_cart_btn:hover{
-    background: #3749bb;
+.ship_cart_btn:hover {
+  background: #3749bb;
 }
+
 .compare_btn {
-    margin-bottom: 12px;
+  margin-bottom: 12px;
 }
 
 /* .cart_btn{
@@ -550,187 +567,207 @@ nav.navbar.navbar-expand-lg {
 
 
 .ship_cart_btn i {
-    color: #fff;
-    font-size: 20px;
-    margin: 10px 0 5px;
+  color: #fff;
+  font-size: 20px;
+  margin: 10px 0 5px;
 }
 
 .ship_cart_btn .label {
-    opacity: .8;
+  opacity: .8;
 }
+
 .ship_cart_btn .counter {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    position: absolute;
-    right: -10px;
-    top: -10px;
-    background: #ef4a23;
-    border-radius: 16px;
-    line-height: 20px;
-    font-size: 12px;
-    font-weight: bold;
-    text-align: center; 
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: -10px;
+  top: -10px;
+  background: #ef4a23;
+  border-radius: 16px;
+  line-height: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
 }
+
 /*======================== Comper_cart End ==================*/
- /* ==================================== Feature Products start ===================================  */
- #featured{
+/* ==================================== Feature Products start ===================================  */
+#featured {
   margin-top: 50px;
-    /* padding-top: 68px; */
-    /* padding-bottom: 100px; */
+  /* padding-top: 68px; */
+  /* padding-bottom: 100px; */
 }
+
 .featured_heading h2 {
-    font-size: 20px;
-    line-height: 26px;
-    margin-bottom: 5px;
-    font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  margin-bottom: 5px;
+  font-weight: 700;
 }
+
 .featured_heading p {
-    margin-bottom: 22px;
-    font-size: 15px;
-    color: #01132d;
-    line-height: 26px;
+  margin-bottom: 22px;
+  font-size: 15px;
+  color: #01132d;
+  line-height: 26px;
 }
 
 
 .featured_box_main_parents {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 -5px;
-    padding: 0;
-    justify-content: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -5px;
+  padding: 0;
+  justify-content: flex-start;
 }
 
 .featured_box_main {
-    flex: 0 0 20%;
-    max-width: 20%;
-    padding: 0 5px 10px;
-    margin-bottom: 0;
-    display: flex;
-    position: relative;
+  flex: 0 0 20%;
+  max-width: 20%;
+  padding: 0 5px 10px;
+  margin-bottom: 0;
+  display: flex;
+  position: relative;
 }
 
 .featured_box_content {
-    position: relative;
-    width: 100%;
-    background: #fff;
-    border-radius: 5px;
-    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+  position: relative;
+  width: 100%;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
 }
 
-.featured_box_main:hover .featured_box_content{
-    box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
+.featured_box_main:hover .featured_box_content {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
 }
 
 .featured_box_save {
-    display: flex;
-    position: absolute;
-    top: 15px;
-    left: 0;
-    z-index: 10;
-    flex-direction: column;
-    align-items: flex-start;
+  display: flex;
+  position: absolute;
+  top: 15px;
+  left: 0;
+  z-index: 10;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .featured_box_save_money {
-    background: #6e2594;
-    width: auto;
-    color: #fff;
-    font-size: 12px;
-    padding: 3px 10px;
-    line-height: 14px;
-    margin-bottom: 2px;
-    border-radius: 0 20px 20px 0;
+  background: #6e2594;
+  width: auto;
+  color: #fff;
+  font-size: 12px;
+  padding: 3px 10px;
+  line-height: 14px;
+  margin-bottom: 2px;
+  border-radius: 0 20px 20px 0;
 }
 
 .featured_box_img {
-    text-align: center;
-    border-bottom: 3px solid rgba(55,73,187,.03);
-    padding: 20px;
-    margin: 0;
+  text-align: center;
+  border-bottom: 3px solid rgba(55, 73, 187, .03);
+  padding: 20px;
+  margin: 0;
 }
 
-.featured_box_img>a{
-    height: 228px;
+.featured_box_img>a {
+  height: 228px;
 }
 
 .featured_box_title_price {
-    height: 128.6px;
-    padding: 15px;
-    display: flex;
-    flex: 1 1 auto;
-    flex-direction: column;
-    justify-content: space-between;
+  height: 128.6px;
+  padding: 15px;
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .featured_box_title_price .featured_box_title {
-    line-height: 20px;
-    font-weight: 400;
+  line-height: 20px;
+  font-weight: 400;
 }
 
-.featured_box_title a{
-    display: inline-block;
-    color: #01132d;
-    font-weight: 400;
-    font-size: 15px;
-    width: 100%;
-    height: 40px;
+.featured_box_title a {
+  display: inline-block;
+  color: #01132d;
+  font-weight: 400;
+  font-size: 15px;
+  width: 100%;
+  height: 40px;
 }
 
-.featured_box_title a:hover{
-    color: #ef4a23;
-    text-decoration: underline;
+.featured_box_title a:hover {
+  color: #ef4a23;
+  text-decoration: underline;
 }
 
 .featured_box_price {
-    line-height: 22px;
-    font-size: 17px;
-    font-weight: 600;
-    color: #ef4a23;
+  line-height: 22px;
+  font-size: 17px;
+  font-weight: 600;
+  color: #ef4a23;
 }
 
 .featured_box_price_old {
-    font-size: 12px;
-    font-weight: 600;
-    text-decoration: line-through;
-    color: #666;
-    padding-left: 5px;
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: line-through;
+  color: #666;
+  padding-left: 5px;
 }
 
- /* ==================================== Feature Products End ===================================  */
- 
+/* ==================================== Feature Products End ===================================  */
+
 /* ====================== product details Start ====================== */
 
-#product-desc{
-  padding: 50px 0 56px;
+#product-desc {
+  padding: 50px 0 88px;
 }
-.product-details .description-1 h1{
+
+.product-details .description-1 h1 {
   font-size: 23px;
   line-height: 28px;
   font-weight: 400;
   margin: 0 0 20px;
   font-family: "Trebuchet MS", sans-serif;
 }
-.product-details .description-1 p{
+
+.product-details .description-1 p {
   margin-bottom: 32px;
   font-size: 15px;
   color: #01132d;
   line-height: 26px;
   font-family: "Trebuchet MS", sans-serif;
 }
-.product-details .description-1 h2{
-  font-weight: normal;
-  font-size: 19px;
+
+.product-details .description-1 h2 {
+  font-size: 18px;
   margin: 25px 0 12px;
   font-family: "Trebuchet MS", sans-serif;
-} 
-.product-details .description-1 .proper{
-  margin-top: 20px;
-}     
-.description-1 a{
- color: #ef4a23;
+  font-weight: 700;
 }
-.description-1 a:hover{
+.product-details .description-1 .marginfixone {
+  margin: 15px 0 10px;
+}
+.product-details .description-1 .marginfix {
+  margin: 0px 0 5px !important;
+}
+.product-details .description-1 .marginfixtwo {
+  margin: 0px !important;
+}
+
+.product-details .description-1 .proper {
+  margin-top: 20px;
+  max-width: 1290px;
+}
+
+.description-1 a {
+  color: #ef4a23;
+}
+
+.description-1 a:hover {
   text-decoration: underline;
 }
 
@@ -739,18 +776,18 @@ nav.navbar.navbar-expand-lg {
 /* ====================== Footer CSS Start ====================== */
 #footer {
   background: #081621;
-  padding-top: 50px;
-  padding-bottom: 25px;
+  padding-top: 55px;
+  padding-bottom: 28px;
 }
 
 
-footer .pdb{
+footer .pdb {
   padding-bottom: 30px;
 }
 
 .footer_contact_us h4 {
   color: #fff;
-  margin-bottom: 30px;
+  margin-bottom: 34px;
   font-size: 14px;
   font-weight: normal;
   text-transform: uppercase;
@@ -798,9 +835,21 @@ footer .pdb{
   font-weight: normal;
 }
 
+.footer_about_us {
+  margin-left: -8px;
+}
+
+.footer_about_us .marginleft{
+  margin-left: 42px;
+}
+.footer_about_us .marginleft45{
+  margin-left: 45px;
+}
+
+
 .footer_about_us h4 {
   color: #fff;
-  margin-bottom: 30px;
+  margin-bottom: 34px;
   font-size: 14px;
   font-weight: normal;
   text-transform: uppercase;
@@ -818,10 +867,7 @@ footer .pdb{
   padding: 0 0 20px;
 }
 
-.footer_about_us ul li{
-
-
-}
+.footer_about_us ul li {}
 
 .footer_about_us ul li a {
   font-size: 14px;
@@ -829,45 +875,49 @@ footer .pdb{
   white-space: nowrap;
   margin-bottom: 20px;
 }
-.footer_about_us ul li a:hover{
+
+.footer_about_us ul li a:hover {
   color: #ef4a23;
   text-decoration: underline;
 }
 
-
-.footer_org_info h4{
-    color:#fff;
-    margin-bottom: 34px;
-    font-size: 14px;
-    font-weight: normal;
-    text-transform: uppercase;
-    letter-spacing: 4px;
+.footer_org_info {
+  margin-left: 27px;
 }
 
-.footer_org_info h5{
-  color:#fff;
+.footer_org_info h4 {
+  color: #fff;
+  margin-bottom: 42px;
   font-size: 14px;
   font-weight: normal;
-  margin-bottom: 17px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
 }
 
-.footer_org_info p{
+.footer_org_info h5 {
+  color: #fff;
+  font-size: 14px;
+  font-weight: normal;
+  margin-bottom: 12px;
+}
+
+.footer_org_info p {
   color: #666;
   font-size: 14px;
-  padding-right: 58px;
+  padding-right: 31px;
   margin-bottom: 17px;
   line-height: 24px;
 }
 
-.footer_org_info h6{
-  color:#666;
+.footer_org_info h6 {
+  color: #666;
   font-size: 14px;
   font-weight: normal;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 
-.footer_org_info span{
-  color:#ef4a23;
+.footer_org_info span {
+  color: #ef4a23;
   font-size: 14px;
   font-weight: normal;
 
@@ -886,13 +936,13 @@ footer .pdb{
   display: flex;
   align-items: center;
 }
+
 .app_link_text {
   color: #666666;
   font-size: 12px;
 }
 
-.app_link_items {
-}
+.app_link_items {}
 
 .footer_anchor {
   display: flex;
@@ -923,6 +973,7 @@ footer .pdb{
   color: #fff;
   font-size: 14px;
 }
+
 .social_media_link ul {
   display: flex;
   justify-content: center;
@@ -947,19 +998,20 @@ footer .pdb{
   background: rgba(255, 255, 255, 0.1);
 }
 
-.sub_footer{
-padding-top: 15px;
-justify-content: space-between;
+.sub_footer {
+  padding-top: 19px;
+  justify-content: space-between;
 }
 
-.sub_footer_copy_right p{
-    font-size: 12px;
-    color: #666;
+.sub_footer_copy_right p {
+  font-size: 12px;
+  color: #666;
 }
 
-.sub_footer_powerBy{
+.sub_footer_powerBy {
   font-size: 12px;
   color: #666;
   text-align: right;
 }
+
 /* ====================== Footer CSS End ====================== */
