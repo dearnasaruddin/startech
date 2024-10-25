@@ -72,7 +72,7 @@ a {
 
   }
 
-  */ 100% {
+  100% {
     background: #00237e, ;
 
   }
@@ -862,8 +862,6 @@ footer .pdb {
   padding: 0 0 20px;
 }
 
-.footer_about_us ul li {}
-
 .footer_about_us ul li a {
   font-size: 14px;
   color: #666;
@@ -878,6 +876,9 @@ footer .pdb {
 
 .footer_org_info {
   margin-left: 27px;
+}
+.footer_org_info .mailhov:hover {
+  text-decoration: underline;
 }
 
 .footer_org_info h4 {
@@ -937,7 +938,6 @@ footer .pdb {
   font-size: 12px;
 }
 
-.app_link_items {}
 
 .footer_anchor {
   display: flex;
@@ -949,6 +949,10 @@ footer .pdb {
   /* width: 116px;
   height: 40px; */
   white-space: nowrap;
+}
+
+.footer_anchor:hover{
+border: 1px solid #ddd;
 }
 
 .app_icons {
@@ -975,7 +979,9 @@ footer .pdb {
   align-items: center;
   column-gap: 12px;
 }
-
+.social_media_link li:hover a{
+background: #3749BB;
+}
 .social_media_link ul li a {
   width: 40px;
   height: 40px;
