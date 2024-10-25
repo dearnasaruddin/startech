@@ -144,6 +144,9 @@ a {
   align-items: center;
   column-gap: 14px;
 }
+.header_content ul li{
+  cursor: pointer;
+}
 
 .header_content ul li i {
   color: #ef4a23;
@@ -454,6 +457,9 @@ nav.navbar.navbar-expand-lg {
 
 .feature-cart-item:hover p {
   color: #EF4A23;
+}
+.feature-cart-item:hover {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
 }
 
 .store-info {
@@ -879,6 +885,7 @@ footer .pdb {
 }
 .footer_org_info .mailhov:hover {
   text-decoration: underline;
+  cursor: pointer;
 }
 
 .footer_org_info h4 {
