@@ -1,9 +1,3 @@
-/* ====================== Font Start ====================== */
-body {
-  font-family: "Trebuchet MS", sans-serif;
-}
-
-/* ====================== Font End ====================== */
 
 /* ====================== Common CSS Start ====================== */
 * {
@@ -13,6 +7,7 @@ body {
 
 body {
   background: #f2f4f8;
+  font-family: "Trebuchet MS", sans-serif;
 }
 
 h1,
